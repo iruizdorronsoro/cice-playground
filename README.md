@@ -10,14 +10,12 @@ This repository holds the contents of the [Master in Fullstack Web](https://www.
 ## Installation
 
 1. Install [NodeJS](https://nodejs.org/)
-0. Clone project
-0. Open terminal
-0. `cd` into the project's directory
-0. Install dependencies with: `npm i`
-0. Run bootstrap with: `npm run bootstrap`
+2. Clone project
+3. Open terminal
+4. `cd` into the project's directory
+5. Install dependencies with: `npm i`
+6. Run bootstrap with: `npm run bootstrap`
 
 ## Development
 
 You can format the code: with `npm run format` and lint with `npm run lint`.
-
-

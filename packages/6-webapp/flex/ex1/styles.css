@@ -1,0 +1,12 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.box:nth-child(1) {
+  flex: 1;
+}
+
+.box {
+  flex-direction: column;
+}

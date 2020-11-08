@@ -1,0 +1,24 @@
+.wrapper {
+  display: flex;
+}
+
+.aside,
+.content {
+  display: flex;
+  flex-direction: column;
+}
+.content {
+  flex: 4;
+}
+
+.aside {
+  flex: 1;
+}
+
+.box {
+  flex: 1;
+}
+
+.main {
+  flex: 4;
+}

@@ -1,0 +1,36 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.header,
+.footer {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+}
+
+.box {
+  flex: 1;
+}
+
+.header-main {
+  flex: 4;
+}
+
+.header-aside {
+  flex: 1;
+}
+
+.content {
+  display: flex;
+  flex: 2;
+}
+
+.aside-content {
+  flex: 1;
+}
+
+.main-content {
+  flex: 4;
+}
