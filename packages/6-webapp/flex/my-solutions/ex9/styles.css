@@ -1,0 +1,45 @@
+.wrapper,
+.header,
+.footer {
+  display: flex;
+  flex-direction: row;
+}
+.box {
+  flex: 1;
+}
+.aside,
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.aside {
+  flex: 1;
+}
+.container {
+  flex: 3;
+}
+
+.menu,
+.header,
+.footer {
+  flex: 1;
+}
+.main {
+  flex: 2;
+}
+.main-aside {
+  flex: 3;
+}
+
+.footer-hidden,
+.header-hidden {
+  flex: 1;
+}
+.nav,
+.sign {
+  flex: 2;
+}
+.hidden {
+  border: none;
+}

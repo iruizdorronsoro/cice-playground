@@ -1,0 +1,40 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.box {
+  flex: 1;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+}
+
+.content {
+  display: flex;
+  flex: 4;
+}
+
+.aside {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.main-content {
+  display: flex;
+  flex: 2;
+}
+
+.main-aside {
+  flex: 3;
+}
+.main-header {
+  flex: 3;
+}
+.hidden {
+  border: none;
+}

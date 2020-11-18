@@ -1,0 +1,35 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.box {
+  flex: 1;
+}
+.header,
+.main-container,
+.footer {
+  display: flex;
+  flex-direction: row;
+}
+.header,
+.footer {
+  flex: 1;
+}
+.main-container {
+  flex: 2;
+}
+
+.nav,
+.main-hidden,
+.sign {
+  flex: 1;
+}
+
+.header-hidden,
+.main,
+.footer-hidden {
+  flex: 3;
+}
+.hidden {
+  border: none;
+}

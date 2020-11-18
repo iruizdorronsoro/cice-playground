@@ -1,0 +1,51 @@
+.wrapper,
+.aside,
+.main-section,
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+.container,
+.header {
+  display: flex;
+  flex-direction: row;
+}
+
+.box {
+  flex: 1;
+}
+
+.container {
+  flex: 3;
+}
+
+.footer {
+  flex: 1;
+}
+
+.aside {
+  flex: 1;
+}
+
+.logo,
+.header {
+  flex: 1;
+}
+
+.main-aside,
+.main {
+  flex: 2;
+}
+
+.main-section {
+  flex: 3;
+}
+
+.menu {
+  flex: 1;
+}
+
+.nav {
+  flex: 2;
+}
