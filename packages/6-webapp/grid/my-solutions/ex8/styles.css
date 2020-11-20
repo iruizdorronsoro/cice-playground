@@ -1,0 +1,19 @@
+.wrapper {
+  display: grid;
+  grid-template-areas:
+    'h . . .'
+    '. m m m'
+    '. m m m'
+    '. . . f';
+}
+
+.header {
+  grid-area: h;
+}
+
+.main {
+  grid-area: m;
+}
+.footer {
+  grid-area: f;
+}
